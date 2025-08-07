@@ -5,8 +5,7 @@ MYKERNEL - without RAID without nvme, with some stuff for terminal vt(4)
 
 
 
-
-
+```
 cd /usr/src/sys/amd64/conf
 
 mkdir /root/kernels
@@ -25,7 +24,7 @@ make buildkernel KERNCONF=MYKERNEL
 make installkernel KERNCONF=MYKERNEL
 
 shutdown -r now
-
+```
 
 
 
