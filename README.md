@@ -6,24 +6,29 @@ MYKERNEL - without RAID without nvme, with some stuff for terminal vt(4)
 
 
 ```
-cd /usr/src/sys/amd64/conf
-
-mkdir /root/kernels
-
-cp GENERIC /root/kernels/MYKERNEL
-
-ln -s /root/kernels/MYKERNEL
-
-cd /usr/src/sys/amd64/conf && make LINT
-
-
-cd /usr/src
-
-make buildkernel KERNCONF=MYKERNEL
-
-make installkernel KERNCONF=MYKERNEL
-
-shutdown -r now
+##########################################
+#cd /usr/src/sys/amd64/conf              #
+#                                        #
+#mkdir /root/kernels
+#                                        #
+#cp GENERIC /root/kernels/MYKERNEL
+#                                        #
+#ln -s /root/kernels/MYKERNEL
+#                                        #
+##########################################
+##some edit kernel########################
+##########################################
+#                                        #
+#cd /usr/src/sys/amd64/conf && make LINT #
+#                                        #
+#cd /usr/src                             #
+#make buildkernel KERNCONF=MYKERNEL      #
+#                                        #
+#make installkernel KERNCONF=MYKERNEL    #
+##########################################
+#                                        #
+#shutdown -r now                         #
+##########################################
 ```
 
 
