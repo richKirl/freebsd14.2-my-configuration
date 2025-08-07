@@ -31,6 +31,6 @@ shutdown -r now
 
 resources
 
-docs.freebsd.org/en/books/handbook/x11/
+```docs.freebsd.org/en/books/handbook/x11/```
 
-zenarmor.com/docs/freebsd-tutorials/how-to-configure-freebsd-kernel
+```zenarmor.com/docs/freebsd-tutorials/how-to-configure-freebsd-kernel```
