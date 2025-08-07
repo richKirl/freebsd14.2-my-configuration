@@ -31,6 +31,11 @@ MYKERNEL - without RAID without nvme, with some stuff for terminal vt(4)
 ##########################################
 ```
 
+install nvidia-drm drm-kmod x86-intel vdpau sdl2 sdl3 gnome nvidia 
+
+nvidia-xconfig --prime
+
+for debug - off lightdm_enable="NO" reboot
 
 
 
