@@ -1,6 +1,11 @@
 # freebsd14.2-my-configuration
 freebsd14.2 my configuration
 
+<img width="1920" height="1050" alt="image" src="https://github.com/user-attachments/assets/b53ff698-a7a0-4c26-9819-96c3117ca324" />
+
+
+
+
 MYKERNEL - without RAID without nvme, with some stuff for terminal vt(4)
 
 
