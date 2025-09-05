@@ -202,7 +202,7 @@ device		sc
 options 	SC_PIXEL_MODE		# add support for the raster text mode
 
 # vt is the default video console driver
-options   TERMINAL_KERN_ATTR=(FG_GREEN|BG_BLACK)
+options    TERMINAL_KERN_ATTR=(FG_GREEN|BG_BLACK)
 options		TERMINAL_NORM_ATTR=(FG_LIGHTRED|BG_BLACK)
 options		VT_MAXWINDOWS=12
 options		VT_ALT_TO_ESC_HACK=1
