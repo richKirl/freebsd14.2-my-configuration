@@ -1,0 +1,11 @@
+xterm*background: black
+xterm*foreground: white
+xterm*font: Terminus-12
+xterm*saveLines: 1000
+XTerm*VT100*translations: #override \
+    Shift <KeyPress> Insert: insert-selection(PRIMARY) \n\
+    Shift Ctrl <KeyPress> V: insert-selection(CLIPBOARD) \n\
+    Shift Ctrl <KeyPress> C: copy-selection(CLIPBOARD)
+
+xterm*VT100.initialFont: 5
+XTerm*geometry: 97x40+0+0
